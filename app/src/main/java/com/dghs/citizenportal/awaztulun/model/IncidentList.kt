@@ -1,8 +1,8 @@
 package com.dghs.citizenportal.awaztulun.model
 
-import com.dghs.citizenportal.awaztulun.ui.awaztulun.model.Comments
-import com.dghs.citizenportal.awaztulun.ui.awaztulun.model.IncidentReportList
-import com.dghs.citizenportal.awaztulun.ui.awaztulun.model.IncidentTypeList
+import com.dghs.citizenportal.awaztulun.model.Comments
+import com.dghs.citizenportal.awaztulun.model.IncidentReportList
+import com.dghs.citizenportal.awaztulun.model.IncidentTypeList
 import com.google.gson.annotations.SerializedName
 import java.lang.StringBuilder
 import java.util.ArrayList

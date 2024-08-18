@@ -1,7 +1,7 @@
 package com.dghs.citizenportal.awaztulun.network
 
 import com.dghs.citizenportal.awaztulun.firebase.UpdateFirebaseTokenResponse
-import com.dghs.citizenportal.awaztulun.ui.awaztulun.model.*
+import com.dghs.citizenportal.awaztulun.model.*
 import com.dghs.citizenportal.awaztulun.util.Constants
 import io.reactivex.Observable
 import kotlinx.coroutines.Deferred

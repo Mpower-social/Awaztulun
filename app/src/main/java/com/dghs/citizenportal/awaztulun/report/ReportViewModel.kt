@@ -10,8 +10,8 @@ import com.dghs.citizenportal.awaztulun.CitizenApplication
 import com.dghs.citizenportal.awaztulun.R
 import com.dghs.citizenportal.awaztulun.network.ApiService
 import com.dghs.citizenportal.awaztulun.base.BaseViewModel
-import com.dghs.citizenportal.awaztulun.ui.awaztulun.model.IncidentTypeList
-import com.dghs.citizenportal.awaztulun.ui.awaztulun.model.SaveIncident
+import com.dghs.citizenportal.awaztulun.model.IncidentTypeList
+import com.dghs.citizenportal.awaztulun.model.SaveIncident
 import com.dghs.citizenportal.awaztulun.util.Constants.Companion.getCurrentDateTime
 import com.dghs.citizenportal.awaztulun.util.SharedPreferenceUtil
 import id.zelory.compressor.Compressor

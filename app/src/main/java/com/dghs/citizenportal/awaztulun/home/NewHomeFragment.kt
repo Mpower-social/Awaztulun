@@ -4,6 +4,7 @@ import android.app.Dialog
 import android.content.Context.MODE_PRIVATE
 import android.content.Intent
 import android.graphics.Rect
+import android.graphics.drawable.Drawable
 import android.location.Location
 import android.net.Uri
 import android.os.Bundle
@@ -23,10 +24,10 @@ import com.dghs.citizenportal.awaztulun.BuildConfig
 import com.dghs.citizenportal.awaztulun.R
 import com.dghs.citizenportal.awaztulun.databinding.FragmentAwaztulunHomeBinding
 import com.dghs.citizenportal.awaztulun.model.IncidentList
-import com.dghs.citizenportal.awaztulun.ui.awaztulun.incident.IncidentActivity
-import com.dghs.citizenportal.awaztulun.ui.awaztulun.model.Comments
-import com.dghs.citizenportal.awaztulun.ui.awaztulun.report.ReportActivity
-import com.dghs.citizenportal.awaztulun.ui.awaztulun.util.PermissionUtil
+import com.dghs.citizenportal.awaztulun.incident.IncidentActivity
+import com.dghs.citizenportal.awaztulun.model.Comments
+import com.dghs.citizenportal.awaztulun.report.ReportActivity
+import com.dghs.citizenportal.awaztulun.util.PermissionUtil
 import com.dghs.citizenportal.awaztulun.util.Constants
 import org.osmdroid.api.IMapController
 import org.osmdroid.config.Configuration
@@ -194,6 +195,8 @@ class NewHomeFragment : Fragment(), MapListener {
         val geoPoint = GeoPoint(incidentList.latitude.toDouble(), incidentList.longitude.toDouble())
         val marker = Marker(mapView)
         marker.position = geoPoint
+        marker.icon = getMarkerIconByType(incidentList.incidentTypeId.id,marker)
+
         marker.setAnchor(Marker.ANCHOR_CENTER, Marker.ANCHOR_BOTTOM)
 
         marker.setOnMarkerClickListener { _, mapView ->
@@ -203,6 +206,16 @@ class NewHomeFragment : Fragment(), MapListener {
         }
 
         mapView.overlays.add(marker)
+    }
+
+    private fun getMarkerIconByType(id: String, marker: Marker): Drawable? {
+        when (id){
+            "43358421-064c-48f3-a5d0-72b5e8ea3513" -> return resources.getDrawable(R.drawable.ic_virus,activity?.theme)
+            else -> {
+                return  marker.icon
+            }
+        }
+        return marker.icon
     }
 
     private fun showMarkerDetails(incidentList: IncidentList, showComments: Boolean) {

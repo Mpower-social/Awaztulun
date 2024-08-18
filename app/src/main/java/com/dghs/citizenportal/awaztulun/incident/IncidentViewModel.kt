@@ -7,7 +7,7 @@ import androidx.lifecycle.viewModelScope
 import com.dghs.citizenportal.awaztulun.network.ApiService
 import com.dghs.citizenportal.awaztulun.base.BaseViewModel
 import com.dghs.citizenportal.awaztulun.model.IncidentList
-import com.dghs.citizenportal.awaztulun.ui.awaztulun.model.Comments
+import com.dghs.citizenportal.awaztulun.model.Comments
 import com.dghs.citizenportal.awaztulun.util.SharedPreferenceUtil
 import com.google.gson.JsonObject
 import kotlinx.coroutines.Dispatchers

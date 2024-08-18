@@ -4,6 +4,7 @@ import android.view.View
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.dghs.citizenportal.awaztulun.CitizenApplication
+import com.dghs.citizenportal.awaztulun.MainActivityViewModel
 import com.dghs.citizenportal.awaztulun.home.HomeViewModel
 import com.dghs.citizenportal.awaztulun.incident.IncidentViewModel
 import com.dghs.citizenportal.awaztulun.report.ReportViewModel
@@ -28,6 +29,7 @@ abstract class BaseViewModel: ViewModel() {
             is ReportViewModel -> viewModelInjector.injectViewModel(this)
             is IncidentViewModel -> viewModelInjector.injectViewModel(this)
             is SettingsViewModel -> viewModelInjector.injectViewModel(this)
+            is MainActivityViewModel -> viewModelInjector.injectViewModel(this)
         }
     }
 

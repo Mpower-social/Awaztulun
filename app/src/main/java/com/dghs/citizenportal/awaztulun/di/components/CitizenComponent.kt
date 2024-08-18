@@ -1,6 +1,7 @@
 package com.dghs.citizenportal.awaztulun.di.components
 
 import com.dghs.citizenportal.awaztulun.CitizenApplication
+import com.dghs.citizenportal.awaztulun.MainActivityViewModel
 import com.dghs.citizenportal.awaztulun.home.HomeViewModel
 import com.dghs.citizenportal.awaztulun.di.modules.ApiModule
 import com.dghs.citizenportal.awaztulun.di.modules.ContextModule
@@ -26,6 +27,7 @@ interface CitizenComponent {
     fun injectViewModel(viewModel: ReportViewModel)
     fun injectViewModel(viewModel: IncidentViewModel)
     fun injectViewModel(viewModel: SettingsViewModel)
+    fun injectViewModel(viewModel: MainActivityViewModel)
     @Component.Builder
     interface Builder {
         fun build(): CitizenComponent

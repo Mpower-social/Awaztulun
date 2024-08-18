@@ -1,4 +1,4 @@
-package com.dghs.citizenportal.awaztulun.ui.awaztulun.model
+package com.dghs.citizenportal.awaztulun.model
 
 import com.dghs.citizenportal.awaztulun.model.IncidentList
 import com.google.gson.annotations.SerializedName

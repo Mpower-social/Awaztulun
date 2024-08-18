@@ -1,4 +1,4 @@
-package com.dghs.citizenportal.awaztulun.ui.awaztulun.report
+package com.dghs.citizenportal.awaztulun.report
 
 import android.location.Location
 import android.os.Bundle
@@ -7,7 +7,7 @@ import android.view.MenuItem
 import androidx.appcompat.widget.Toolbar
 import com.dghs.citizenportal.awaztulun.R
 import com.dghs.citizenportal.awaztulun.databinding.ActivityReportBinding
-import com.dghs.citizenportal.awaztulun.ui.awaztulun.BaseLocationActivity
+import com.dghs.citizenportal.awaztulun.BaseLocationActivity
 import com.google.android.gms.location.LocationListener
 
 class ReportActivity: BaseLocationActivity(), LocationListener {

@@ -12,7 +12,7 @@ import androidx.lifecycle.Observer
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.dghs.citizenportal.awaztulun.CitizenApplication
-import com.dghs.citizenportal.awaztulun.ui.awaztulun.model.IncidentTypeList
+import com.dghs.citizenportal.awaztulun.model.IncidentTypeList
 
 @BindingAdapter("mutableVisibility")
 fun setMutableVisibility(view: View, visibility: MutableLiveData<Int>?) {

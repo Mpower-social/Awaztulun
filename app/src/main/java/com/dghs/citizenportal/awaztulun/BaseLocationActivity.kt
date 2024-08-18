@@ -1,4 +1,4 @@
-package com.dghs.citizenportal.awaztulun.ui.awaztulun
+package com.dghs.citizenportal.awaztulun
 
 import android.Manifest
 import android.annotation.SuppressLint

@@ -1,4 +1,4 @@
-package com.dghs.citizenportal.awaztulun.ui.awaztulun.util
+package com.dghs.citizenportal.awaztulun.util
 
 import android.Manifest
 import android.Manifest.*

@@ -12,9 +12,9 @@
     <string name="do_report">রিপোর্ট করুন</string>
     <string name="do_comment">কমেন্ট করুন</string>
     <string name="report_time">রিপোর্টের সময় </string>
-    <string name="type_crime">অপরাধের ধরণ</string>
+    <string name="type_crime">রিপোর্টের ধরণ</string>
     <string name="details">বিস্তারিত বিবরণ </string>
-    <string name="incident_details">অপরাধের বিবরণ </string>
+    <string name="incident_details">রিপোর্টের বিবরণ </string>
     <string name="picture_upload">ছবি আপলোড করুন</string>
     <string name="cancel">ফিরে যাই</string>
     <string name="ishappening"> এই ঘটনাটি কি এই মুহূর্তে ঘটছে?</string>

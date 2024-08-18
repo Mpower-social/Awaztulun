@@ -1,4 +1,4 @@
-package com.dghs.citizenportal.awaztulun.ui.awaztulun.incident
+package com.dghs.citizenportal.awaztulun.incident
 
 import android.os.Bundle
 import android.view.MenuItem

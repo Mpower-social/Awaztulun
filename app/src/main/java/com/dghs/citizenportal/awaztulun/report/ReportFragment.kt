@@ -1,4 +1,4 @@
-package com.dghs.citizenportal.awaztulun.ui.awaztulun.report
+package com.dghs.citizenportal.awaztulun.report
 
 import android.app.ProgressDialog
 import android.net.Uri
@@ -15,8 +15,8 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.dghs.citizenportal.awaztulun.databinding.FragmentAddReportBinding
 import com.dghs.citizenportal.awaztulun.report.ReportViewModel
-import com.dghs.citizenportal.awaztulun.ui.awaztulun.util.PermissionUtil
-import com.dghs.citizenportal.awaztulun.ui.awaztulun.util.getFilePath
+import com.dghs.citizenportal.awaztulun.util.PermissionUtil
+import com.dghs.citizenportal.awaztulun.util.getFilePath
 import java.io.File
 
 class ReportFragment : Fragment()  {
